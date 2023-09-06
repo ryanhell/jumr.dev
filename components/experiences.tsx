@@ -27,26 +27,26 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    note: "Education",
-    img: "https://www.bth.se/wp-content/uploads/2018/09/bthlogo_svart_platt.png",
-    title: "Blekinge Institute of Technology",
-    subtitle: "Master of Science in Software Engineering",
+    note: "Certificate",
+    img: "/images/phila.jpeg",
+    title: "Phila Department of Building",
+    subtitle: "Phila Site Safety",
     stackIcons: [SiPython, SiCplusplus, SiTypescript, GiProcessor, FaDatabase],
     period: ["2020", "present"],
     bullets: [
-      "I'm currently studying at Blekinge Institute of Technology learning all about Software Engineering, from low level programming, compilers, databases, to project management and software architecture.",
+      "We took the test and hold this cert",
     ],
   },
   {
-    note: "Open Source",
-    img: "https://avatars.githubusercontent.com/u/108266839?s=200&v=4",
-    title: "Create T3 App",
-    subtitle: "OSS Core Team",
+    note: "Osha 30",
+    img: "/images/osha.jpg",
+    title: "Osha",
+    subtitle: "OSS Core Team, Site Safety & Awareness",
     stackIcons: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiPrisma],
     period: ["Jun 22", "present"],
     bullets: [
-      "The best way to start a full-stack, typesafe Next.js app",
-      "Get started on your next idea without worrying about the complex project setup",
+      "Site safety",
+      "working at heights",
     ],
   },
   {
@@ -77,7 +77,7 @@ export function ExperienceCard(props: Experience) {
           src={props.img}
           fill
           alt=""
-          className="rounded-full object-cover object-center"
+          className="object-cover object-center"
         />
       </MotionDiv>
 
@@ -85,7 +85,7 @@ export function ExperienceCard(props: Experience) {
         <div
           className={clsx(
             "absolute right-7 top-0 rounded-lg bg-accent-500 p-2 md:p-4",
-            props.note === "Education" && "bg-sky-800",
+            props.note === "Educaddtion" && "bg-sky-800",
             props.note === "Open Source" && "bg-red-900",
           )}
         >

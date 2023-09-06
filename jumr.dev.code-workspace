@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"tailwindCSS.classAttributes": [
+			"class",
+			"className",
+			"ngClass",
+			"tw"
+		],
+		"typescript.enablePromptUseWorkspaceTsdk": true,
+		"typescript.tsdk": "node_modules/.pnpm/typescript@5.0.2/node_modules/typescript/lib"
+	}
+}

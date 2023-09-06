@@ -31,9 +31,9 @@ export const GET = async (req: Request) => {
       (
         <div tw="bg-[#292524] h-full w-full text-stone-300 flex justify-around p-14 font-[Inter]">
           <div tw="flex flex-col justify-center items-center h-full">
-            <h1 tw="pt-6 text-6xl font-bold">Julius Marminge</h1>
-            <h2 tw="pt-2 text-3xl my-0 font-normal">Software Developer</h2>
-            <h2 tw="pt-2 text-3xl my-0 font-normal">& OSS Enthusiast</h2>
+            <h1 tw="pt-6 text-6xl font-bold">T Savage LLC</h1>
+            <h2 tw="pt-2 text-3xl my-0 font-normal">Construction Management</h2>
+            <h2 tw="pt-2 text-3xl my-0 font-normal">& Manpower</h2>
           </div>
           <div tw="flex items-center h-full">
             <img

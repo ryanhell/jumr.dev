@@ -18,8 +18,8 @@ const cal = localFont({
 });
 
 export const metadata = {
-  title: "Julius | Marminge Software",
-  description: "Software Developer & OSS Enthusiast",
+  title: "T Savage LLC",
+  description: "Construction Management & Manpower",
   icons: [{ url: "/favicon.ico" }],
   openGraph: {
     images: [{ url: "/og-image" }],

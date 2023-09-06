@@ -6,7 +6,7 @@ import { Cal, MotionDiv } from "~/app/use-client";
 import { BlogCard } from "~/components/blog-card";
 import { ExperienceCard, experiences } from "~/components/experiences";
 import { Header } from "~/components/header";
-import ProfileImg from "../public/images/profile.png";
+import ProfileImg from "../public/images/savageShitbox.png";
 
 export default async function Home() {
   const posts = await getAllArticles();
@@ -39,17 +39,17 @@ export default async function Home() {
           <Image
             src={ProfileImg}
             priority
-            height={144}
+            height={64}
             width={144}
             alt="Profile picture"
-            className="relative mx-auto h-36 w-36 rounded-full"
+            className="relative mx-auto h-26 w-177"
           />
           <div className="z-20">
             <h2 className="pb-2 text-sm uppercase tracking-[15px] text-gray-400">
-              Software Engineer
+              Jobsite Management 
             </h2>
             <h1 className="px-10 text-3xl font-semibold md:text-4xl lg:text-6xl">
-              Julius Marminge
+              T SAVAGE, LLC
             </h1>
 
             <div className="pt-5">
@@ -85,8 +85,9 @@ export default async function Home() {
               className="md:md-0 relative -mb-20 h-56 w-56 flex-shrink-0 md:h-72 md:w-72 xl:h-[500px] xl:w-[500px]"
             >
               <Image
-                src="/images/alt.png"
-                fill
+                src="/images/savageShitbox.png"
+                width="700"
+                height="300"
                 alt="me on vacation"
                 className="rounded-full object-cover md:rounded-lg"
               />
@@ -94,18 +95,15 @@ export default async function Home() {
 
             <div className="space-y-10 px-0 py-24 md:px-10 md:py-0">
               <p className="text-base">
-                I&apos;m a software engineer from Sweden. I&apos;m passionate
-                about building stuff whether it be developer tools or
-                applications. I&apos;m eager to learn new things and will never
-                be afraid of exploring new technologies.
+                We are a Philadelphia based construction C Corp. We are licensed and insured for residential and commercial construction. Founded in 2010 by Terrance Savage, we have been working our way thru the paces to master eachphase of construction and construction management..
               </p>
               <p className="text-base">
-                Wanna chat?{" "}
+                Wanna Chat?{" "}
                 <a
                   href="#final-words"
                   className="underline decoration-accent-500 decoration-2 underline-offset-4"
                 >
-                  Book my Cal.com!
+                  Schedule a Time to Talk
                 </a>
               </p>
             </div>
@@ -146,7 +144,7 @@ export default async function Home() {
           className="relative mx-auto flex min-h-screen max-w-full flex-col items-center gap-12 overflow-hidden py-24 px-4 text-left md:px-10"
         >
           <h3 className="font-cal text-2xl uppercase tracking-[15px] text-gray-400 md:tracking-[20px]">
-            Experience
+            Recent Works
           </h3>
           <div className="flex w-full snap-x snap-mandatory space-x-5 overflow-x-scroll scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-accent-500/80 md:p-10">
             {experiences.map((experience) => (
@@ -164,23 +162,21 @@ export default async function Home() {
           className="relative mx-auto flex min-h-screen max-w-full flex-col items-center gap-12 overflow-hidden py-24 px-4 text-left md:px-10"
         >
           <h3 className="font-cal text-2xl uppercase tracking-[15px] text-gray-400 md:tracking-[20px]">
-            Final Words
+            After:
           </h3>
           <ul className="list-disc space-y-4 px-4">
             <li className="text-base">
-              If you like what you see and would like to sponsor my open source
-              work, I am on{" "}
+              If you like what you see and would like to learn more, please take a look at out work with the trade academies, {" "}
               <Link
                 className="underline decoration-accent-500 decoration-2 underline-offset-4"
-                href="https://github.com/sponsors/juliusmarminge"
+                href="https://homedepot.com"
               >
-                GitHub Sponsors
+                Home Depot
               </Link>
               .
             </li>
             <li className="text-base">
-              This page was built using Next.js, React Server Components,
-              Tailwind CSS and Framer Motion - and is open source at{" "}
+              Our humble roots began in the heart of downtown as a sandwhich shop, then a scrapper come demo specialist, and my progression is this business you see today.{" "}
               <Link
                 className="underline decoration-accent-500 decoration-2 underline-offset-4"
                 href="https://github.com/juliusmarminge/jumr.dev"
@@ -190,13 +186,12 @@ export default async function Home() {
               .
             </li>
             <li className="text-base">
-              If you didn&apos;t already know, the best way to start your next
-              fullstack application is with{" "}
+              If you need scalable work force now; punch this button.{" "}
               <Link
                 className="underline decoration-accent-500 decoration-2 underline-offset-4"
-                href="https://create.t3.gg"
+                href="3d3ed3d.com"
               >
-                Create T3 App
+                Book
               </Link>
               .
             </li>
