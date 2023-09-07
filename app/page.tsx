@@ -6,7 +6,7 @@ import { Cal, MotionDiv } from "~/app/use-client";
 import { BlogCard } from "~/components/blog-card";
 import { ExperienceCard, experiences } from "~/components/experiences";
 import { Header } from "~/components/header";
-import ProfileImg from "../public/images/savageShitbox.png";
+import ProfileImg from "../public/images/savageShitbox3.svg";
 
 export default async function Home() {
   const posts = await getAllArticles();
@@ -86,7 +86,7 @@ export default async function Home() {
               className="md:md-0 relative -mb-20 h-56 w-56 flex-shrink-0 md:h-72 md:w-72 xl:h-[500px] xl:w-[500px]"
             >
               <Image
-                src="/images/savageShitbox.png"
+                src="/images/savageShitbox3.svg"
                 width="700"
                 height="300"
                 alt="me on vacation"
