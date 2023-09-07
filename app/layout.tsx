@@ -40,9 +40,9 @@ export default function Layout({ children }: { children: ReactNode }) {
           inter.variable,
         )}
       >
-        <main className="container mx-auto flex-1 px-1 md:px-4">
+        <main className="container mx-auto flex-1 px-1 md:px-4 backdrop-blur-3">
           {children}
-        </main>
+        </main> 
       </body>
       <Analytics />
     </html>
