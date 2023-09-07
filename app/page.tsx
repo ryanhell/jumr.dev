@@ -86,7 +86,7 @@ export default async function Home() {
               className="md:md-0 relative -mb-20 h-56 w-56 flex-shrink-0 md:h-72 md:w-72 xl:h-[500px] xl:w-[500px]"
             >
               <Image
-                src="/images/savageShitbox3.svg"
+                src="/images/nailedLogo23.png"
                 width="700"
                 height="300"
                 alt="me on vacation"
