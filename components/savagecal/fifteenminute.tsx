@@ -6,15 +6,4 @@
   /* If you are using npm */
   // npm install @calcom/embed-react
   
-  import { getCalApi } from "@calcom/embed-react";
-  import { useEffect } from "react";
-  export default function App() {
-	useEffect(()=>{
-	  (async function () {
-		const cal = await getCalApi();
-		cal("floatingButton", {"calLink":"ryanhell/15min"});
-		cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"month_view"});
-	  })();
-	}, [])
-  };
   
