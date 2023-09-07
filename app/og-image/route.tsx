@@ -58,7 +58,7 @@ export const GET = async (req: Request) => {
 
   return new ImageResponse(
     (
-      <div tw="bg-[#292524] h-full w-full text-stone-300 flex justify-around p-4 font-[Inter]">
+      <div tw="bg-[#eb4755] h-full w-full text-stone-300 flex justify-around p-4 font-[Inter]">
         <div tw="flex flex-col justify-center items-center h-full">
           <p tw="pt-6 my-0 text-yellow-600 font-bold flex self-start">
             <span>{props.date}</span>

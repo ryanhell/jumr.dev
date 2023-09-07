@@ -31,7 +31,7 @@ export async function getAllArticles(includeExternal = true) {
         "We spend considerable time training new workers so they can safely deliver professional results. Our investment is not a small undertaking....",
       readingTime: 12,
       previewImg:
-        "/images/savageShitbox.png",
+        "/images/savageStudents.jpg",
       slug: "https://trpc.io/blog/tinyrpc-client",
     });
   }

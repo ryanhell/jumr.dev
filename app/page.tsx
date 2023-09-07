@@ -40,17 +40,18 @@ export default async function Home() {
             src={ProfileImg}
             priority
             height={64}
-            width={144}
+            width={444}
             alt="Profile picture"
             className="relative mx-auto h-26 w-177"
           />
-          <div className="z-20">
-            <h2 className="pb-2 text-sm uppercase tracking-[15px] text-gray-400">
-              Jobsite Management 
+          <div className="mx-3 z-20">
+            <h2 className="pb-2 text-sm uppercase tracking-[10px] text-gray-400">
+            Our Business is Building Confidence
             </h2>
-            <h1 className="px-10 text-3xl font-semibold md:text-4xl lg:text-6xl">
-              T SAVAGE, LLC
+            <h1 className="px-10 text-2xl font-semibold md:text-4xl lg:text-6xl">
+              T Savage Construction 
             </h1>
+            <strong className="underline decoration-sky-500/[.33]">Education, Healthcare, Assisted Living, Retail, Mixed Use, Residential</strong>
 
             <div className="pt-5">
               {["about", "experience", "blog"].map((section) => (
@@ -95,8 +96,17 @@ export default async function Home() {
 
             <div className="space-y-10 px-0 py-24 md:px-10 md:py-0">
               <p className="text-base">
-                We are a Philadelphia based construction C Corp. We are licensed and insured for residential and commercial construction. Founded in 2010 by Terrance Savage, we have been working our way thru the paces to master eachphase of construction and construction management..
+              T. Savage Construction is a Philadelphia, PA based professional construction company founded in 2014 with over ten years of prior construction experience. We provide our clients with great services in residential and commercial projects throughout the Philadelphia area. Since commencement, we have completed projects ranging from small scale to large renovations.
               </p>
+              <p className="text-base">
+              At T. Savage Construction our clients always come first. We listen to our clients and determine the best plan of action to meet their goals and objectives. We work with our clients to analyze the project, issue an accurate estimate, make sure that the project is done on time, and in a professional manner. Our goal is to surpass our client's expectancy of the project.we are passionate about everything and we look to build great construction projects while growing life long relationships.
+              </p>
+              <p className="text-base">
+              T. Savage Construction, LLC. is licensed and insured. Our Pennsylvania HIC # is PA118494. Contact us to today to learn how T. Savage Construction can help. 
+              phone: (267)770-9649
+              email: savageconstruction@outlook.com
+              </p>
+            
               <p className="text-base">
                 Wanna Chat?{" "}
                 <a
@@ -198,9 +208,9 @@ export default async function Home() {
           </ul>
           <div className="w-full space-y-2 text-gray-400" id="calcom">
             <h4 className="text-center font-cal text-2xl tracking-wide">
-              Wanna chat? Book my Cal!
+              Ready when you are! Book us now!
             </h4>
-            <Cal calLink="julius" className="w-full" />
+            <Cal calLink="ryanhell" className="w-full" />
           </div>
         </MotionDiv>
       </section>
