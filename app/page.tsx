@@ -108,7 +108,7 @@ export default async function Home() {
               </p>
             
               <p className="text-base">
-                Wanna Chat?{" "}
+                Wanna Chat?
                 <a
                   href="#final-words"
                   className="underline decoration-accent-500 decoration-2 underline-offset-4"
