@@ -25,25 +25,25 @@ export const Header = (props: { animate?: boolean }) => {
           />
         </Link>
 
-        <a href="https://github.com/juliusmarminge">
+        <a href="https://github.com/tsavagellc">
           <SiGithub
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
             title="Github"
           />
         </a>
-        <a href="https://twitter.com/jullerino">
+        <a href="https://twitter.com/tsavagellc">
           <SiTwitter
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
             title="Twitter"
           />
         </a>
-        <a href="https://www.linkedin.com/in/julius-marminge-b9a12a241/">
+        <a href="https://www.linkedin.com/in/tsavagellc/">
           <SiLinkedin
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
             title="LinkedIn"
           />
         </a>
-        <a href="https://discord.com/users/136072283444871168">
+        <a href="https://discord.com/users/tsavagellc">
           <SiDiscord
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
             title="Discord"

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { getAllArticles } from "~/app/blog/helpers";
-import { Cal, MotionDiv } from "~/app/use-client";
+import { MotionDiv } from "~/app/use-client";
 import { BlogCard } from "~/components/blog-card";
 import { ExperienceCard, experiences } from "~/components/experiences";
 import { Header } from "~/components/header";
@@ -99,7 +99,7 @@ export default async function Home() {
               T. Savage Construction is a Philadelphia, PA based professional construction company founded in 2014 with over ten years of prior construction experience. We provide our clients with great services in residential and commercial projects throughout the Philadelphia area. Since commencement, we have completed projects ranging from small scale to large renovations.
               </p>
               <p className="text-base">
-              At T. Savage Construction our clients always come first. We listen to our clients and determine the best plan of action to meet their goals and objectives. We work with our clients to analyze the project, issue an accurate estimate, make sure that the project is done on time, and in a professional manner. Our goal is to surpass our client's expectancy of the project.we are passionate about everything and we look to build great construction projects while growing life long relationships.
+              At T. Savage Construction our clients always come first. We listen to our clients and determine the best plan of action to meet their goals and objectives. We work with our clients to analyze the project, issue an accurate estimate, make sure that the project is done on time, and in a professional manner. Our goal is to surpass our clients expectancy of the project.we are passionate about everything and we look to build great construction projects while growing life long relationships.
               </p>
               <p className="text-base">
               T. Savage Construction, LLC. is licensed and insured. Our Pennsylvania HIC # is PA118494. Contact us to today to learn how T. Savage Construction can help. 
