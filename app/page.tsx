@@ -206,12 +206,6 @@ export default async function Home() {
               .
             </li>
           </ul>
-          <div className="w-full space-y-2 text-gray-400" id="calcom">
-            <h4 className="text-center font-cal text-2xl tracking-wide">
-              Ready when you are! Book us now!
-            </h4>
-            <Cal calLink="ryanhell" className="w-full" />
-          </div>
         </MotionDiv>
       </section>
     </>
