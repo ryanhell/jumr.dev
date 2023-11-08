@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: "*",
       },
     ],
-    sitemap: "https://jumr.dev/sitemap.xml",
-    host: "https://jumr.dev",
+    sitemap: "https://tsavagellc.com/sitemap.xml",
+    host: "https://tsavagellc.com",
   };
 }

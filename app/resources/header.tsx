@@ -38,10 +38,10 @@ export const Header = (props: { animate?: boolean }) => {
             title="Facebook"
           />
         </a>
-        <a href="/resources">
+        <a href="https://tsavagellc.com/resources">
           <HiInboxIn
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Downloads"
+            title="Downloadw"
           />
         </a>
         <a href="/makesafe">

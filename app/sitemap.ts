@@ -1,6 +1,6 @@
 import { getAllArticles } from "~/app/blog/helpers";
 
-const BASE_URL = "https://jumr.dev";
+const BASE_URL = "https://tsavagellc.com";
 
 export default async function sitemap() {
   const blogPosts = (await getAllArticles(false)).map((post) => ({
