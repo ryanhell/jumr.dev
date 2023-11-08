@@ -42,9 +42,9 @@ export default function Layout({ children }: { children: ReactNode }) {
       >
         <main className="container mx-auto flex-1 px-1 md:px-4 backdrop-blur-3">
           {children}
-        </main> 
+        </main>
+        <Analytics /> 
       </body>
-      <Analytics />
     </html>
   );
 }
