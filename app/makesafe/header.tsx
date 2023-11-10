@@ -69,12 +69,12 @@ export const Header = (props: { animate?: boolean }) => {
             eMail
           </span>
         </Link>
-        <a href="tel:+05890000111"
+        <a href="tel:+1-267-770-9649"
           className="group flex cursor-pointer items-center"
         >
           <MdContactPhone className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors group-hover:fill-gray-300" />
           <span className="hidden font-cal text-sm uppercase text-gray-400 group-hover:text-gray-300 md:inline-flex">
-            Call
+            Calls3d
           </span>
         </a>
       </MotionDiv>

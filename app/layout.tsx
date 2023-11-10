@@ -32,14 +32,11 @@ export const metadata = {
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="dark" data-theme="dark">
-      <body
-        className={clsx(
-          "scroll-smooth bg-stone-800 font-sans text-zinc-50 antialiased scrollbar-none",
-          cal.variable,
-          inter.variable,
-        )}
-      >
+    <html lang="en">
+      <body style={{ 
+          backgroundImage: `url(${'./images/assets/diamonds.png'})`,
+          backgroundRepeat: 'repeat',
+        }}>
         <main className="container mx-auto flex-1 px-1 md:px-4 backdrop-blur-3">
           {children}
         </main>

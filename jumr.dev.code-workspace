@@ -12,6 +12,10 @@
 			"tw"
 		],
 		"typescript.enablePromptUseWorkspaceTsdk": true,
-		"typescript.tsdk": "node_modules/.pnpm/typescript@5.0.2/node_modules/typescript/lib"
+		"typescript.tsdk": "node_modules/.pnpm/typescript@5.0.2/node_modules/typescript/lib",
+		"editor.fontSize": 11,
+		"editor.codeLensFontFamily": "9",
+		"workbench.fontAliasing": "antialiased",
+		"tailwindCSS.rootFontSize": 33
 	}
 }

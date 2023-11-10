@@ -1,5 +1,6 @@
 import { MdOutlineHealthAndSafety } from "react-icons/md";
-import { Header } from "~/components/header";
+import { Header } from "~/components/navigation";
+import Image from 'next/image';
 
 const features = [
   {
@@ -47,9 +48,9 @@ export default function Resources() {
               </dl>
             </div>
           </div>
-          <img
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.washingtonpost.com%2Frw%2F2010-2019%2FWashingtonPost%2F2014%2F07%2F05%2FNational-Politics%2FImages%2FFatal_Rowhouse_Fire-0324e-4621.jpg%3Fuuid%3DSfOFpgSdEeSP0DpmPfporA&f=1&nofb=1&ipt=5f21db4fd1ea0daa5fa3a0ec1b3a695b5d9530bc0e558d00647676f9f668005c&ipo=images"
-            alt="Product screenshot"
+          <Image
+            src="public/images/monkeybidness1.png"
+            alt="temp"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
             height={1442}

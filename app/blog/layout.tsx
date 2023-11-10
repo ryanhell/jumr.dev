@@ -1,6 +1,6 @@
 import { type ReactNode } from "react";
 
-import { Header } from "~/components/header";
+import { Header } from "~/components/navigation";
 
 export default function Layout(props: { children: ReactNode }) {
   return (

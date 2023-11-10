@@ -5,8 +5,8 @@ import { getAllArticles } from "~/app/blog/helpers";
 import { MotionDiv } from "~/app/use-client";
 import { BlogCard } from "~/components/blog-card";
 import { ExperienceCard, experiences } from "~/components/experiences";
-import { Header } from "~/components/header";
-import ProfileImg from "public/images/nailedLogo23.png";
+import { Header } from "~/components/navigation";
+import ProfileImg from "~/public/images/assets/nail.png";
 
 export default async function Home() {
   const posts = await getAllArticles();
