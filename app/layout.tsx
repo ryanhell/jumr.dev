@@ -3,19 +3,6 @@ import { type ReactNode } from "react";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/react";
-import clsx from "clsx";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  display: "swap",
-});
-
-const cal = localFont({
-  src: "../styles/calsans.ttf",
-  variable: "--font-cal",
-  display: "swap",
-});
 
 export const metadata = {
   title: "T Savage LLC",

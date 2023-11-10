@@ -1,13 +1,14 @@
 import { Header } from "~/components/navigation";
+
 const stats = [
-        { id: 1, name: 'Transactions every 24 hours', value: '44 million' },
-        { id: 2, name: 'Assets under holding', value: '$119 trillion' },
-        { id: 3, name: 'New users annually', value: '46,000' },
+        { id: 1, name: 'Fires Happen', value: 'MAKE SAFE' },
+        { id: 2, name: 'Structural Instability', value: 'MAKE SAFE' },
+        { id: 3, name: 'City Compliance', value: 'MAKE SAFE' },
       ]
       
       export default function Page() {
         return (
-        <section id="hero">
+        <section id="make safe">
         <Header />
         <text className="text-base leading-7 text-gray-600">Resources</text>
           <div className="bg-white py-24 sm:py-32">            

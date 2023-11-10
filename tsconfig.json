@@ -34,6 +34,6 @@
     "**/*.mjs",
     ".eslintrc.cjs",
     ".next/types/**/*.ts"
-  ],
+, "app/makesafe/litmus"  ],
   "exclude": ["node_modules"]
 }

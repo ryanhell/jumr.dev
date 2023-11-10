@@ -1,22 +1,22 @@
+import React from "react";
 import { MdOutlineHealthAndSafety } from "react-icons/md";
-import { Header } from "~/components/navigation";
-import Image from 'next/image';
+import { Header } from "~/app/makesafe/header";
 
 const features = [
   {
     name: 'Structural Code Compliance',
     description:
-      'whether your managing a recent fire or a decades old abandoned row home; we can help/ We are the most experienced team in Philadelphia working with these make safe compliance porjects. Safety is our name. let us take care of the risky stuff. ',
+      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
     icon: MdOutlineHealthAndSafety,
   },
   {
     name: 'Post Fire Response',
-    description: 'After fires run their course often the water damage from the firefighters causes substancial structural vulnerabilities. We are ready to spring into action day or not and shore up compromised structures and get pumps discharging water, fans drying interior elements. Give us a call today.',
+    description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
     icon: MdOutlineHealthAndSafety,
   },
   {
-    name: 'Unauthorized / Unpermitted Work Make Safes',
-    description: 'We are not here to judge, but the judge said you gotta get a third party in to safe things up. We can help with that too. ',
+    name: 'Database backups.',
+    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
     icon: MdOutlineHealthAndSafety,
   },
 ]
@@ -47,14 +47,7 @@ export default function Resources() {
                 ))}
               </dl>
             </div>
-          </div>
-          <Image
-            src="public/images/monkeybidness1.png"
-            alt="temp"
-            className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
-            width={2432}
-            height={1442}
-          />
+          </div>          
         </div>
       </div>
     </div>
