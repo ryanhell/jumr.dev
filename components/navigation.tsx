@@ -73,11 +73,10 @@ export const Header = (props: { animate?: boolean }) => {
           </span>
         </a>
         </div>
-        <div className="small">
+        <div className="flex">
           <div className="space-x-1">
             <span className="border border-gray-300 rounded-full px-2 text-xs text-cyan-400 py-0.5">
-              License number 
-              PA 118494  
+              License: PA 118494  
             </span>
           </div>
         </div>
