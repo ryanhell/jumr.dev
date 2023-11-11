@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaHome } from "react-icons/fa";
 import { HiClipboardList, HiInboxIn } from "react-icons/hi";
 import { MdOutlineHealthAndSafety, MdContactPhone, MdContactMail } from "react-icons/md";
-import { AiOutlineFacebook } from "react-icons/ai";
+
 
 import { MotionDiv } from "~/app/use-client";
 
@@ -30,12 +30,6 @@ export const Header = (props: { animate?: boolean }) => {
           <HiClipboardList
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
             title="Get Permit"
-          />
-        </a>
-        <a href="https://facebook.com/tsavagellc">
-          <AiOutlineFacebook
-            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Facebook"
           />
         </a>
         <a href="/resources">
