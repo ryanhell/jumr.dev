@@ -15,8 +15,8 @@ const features = [
     icon: MdOutlineHealthAndSafety,
   },
   {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'IBS and IRC Compliance.',
+    description: 'T Savage has an award winning Make Safe team. our mantra is "get in and get out and leave things safe enough we can sleep at night. our .',
     icon: MdOutlineHealthAndSafety,
   },
 ]

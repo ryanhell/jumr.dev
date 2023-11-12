@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import { type ReactNode } from "react";
+<<<<<<< HEAD
 import { Analytics } from '@vercel/analytics/react';
 import { Roboto } from 'next/font/google';
 import Footer from 'components/footer'
@@ -10,6 +11,9 @@ const fontser = Roboto({
   variable: "--font-sans",
   display: "swap",
 });
+=======
+import { Analytics } from "@vercel/analytics/react";
+>>>>>>> ba6a8d03b236fbd920b7630399217a58ac8e7a39
 
 export const metadata = {
   title: "T Savage LLC",
