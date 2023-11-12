@@ -13,9 +13,14 @@
 		],
 		"typescript.enablePromptUseWorkspaceTsdk": true,
 		"typescript.tsdk": "node_modules/.pnpm/typescript@5.0.2/node_modules/typescript/lib",
-		"editor.fontSize": 11,
+		"editor.fontSize": 18,
 		"editor.codeLensFontFamily": "9",
 		"workbench.fontAliasing": "antialiased",
 		"tailwindCSS.rootFontSize": 33
+	},
+	"extensions": {
+		"recommendations": [
+			"virejdasani.in-your-face"
+		]
 	}
 }

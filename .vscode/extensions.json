@@ -3,6 +3,8 @@
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
     "bradlc.vscode-tailwindcss",
-    "unifiedjs.vscode-mdx"
+    "unifiedjs.vscode-mdx",
+    "millsp.material-candy",
+    "virejdasani.in-your-face"
   ]
 }

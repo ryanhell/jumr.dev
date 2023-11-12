@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link'
 
 import { getAllArticles } from "~/app/blog/helpers";
 import { MotionDiv } from "~/app/use-client";

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { FaHome } from "react-icons/fa";
-import { HiClipboardList, HiInboxIn } from "react-icons/hi";
-import { MdOutlineHealthAndSafety, MdContactPhone, MdContactMail } from "react-icons/md";
+import { MdContactPhone, MdContactMail } from "react-icons/md";
 import { AiOutlineFacebook } from "react-icons/ai";
 
 import { MotionDiv } from "~/app/use-client";
@@ -22,34 +21,9 @@ export const Header = (props: { animate?: boolean }) => {
         <Link href="/#hero">
           <FaHome
             className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Go home"
+            title="Home"
           />
         </Link>
-
-        <a href="https://www.phila.gov/departments/department-of-licenses-and-inspections/permits-and-certificates/construction-and-repair-permits/">
-          <HiClipboardList
-            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Get Permit"
-          />
-        </a>
-        <a href="https://facebook.com/tsavagellc">
-          <AiOutlineFacebook
-            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Facebook"
-          />
-        </a>
-        <a href="/resources">
-          <HiInboxIn
-            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Downloads"
-          />
-        </a>
-        <a href="/makesafe">
-          <MdOutlineHealthAndSafety
-            className="h-10 w-10 cursor-pointer fill-gray-400 p-2 text-2xl transition-colors hover:fill-gray-300"
-            title="Make Safes"
-          />
-        </a>
       </MotionDiv>
 
       <MotionDiv
@@ -68,7 +42,7 @@ export const Header = (props: { animate?: boolean }) => {
           <span className="hidden font-cal text-sm uppercase text-gray-400 group-hover:text-gray-300 md:inline-flex">
             eMail
           </span>
-        </Link>
+         </Link>
         <a href="tel:+12677709649
 "
           className="group flex cursor-pointer items-center float-right"
@@ -78,14 +52,6 @@ export const Header = (props: { animate?: boolean }) => {
             Call
           </span>
         </a>
-        </div>
-        <div className="small">
-          <div className="space-x-1">
-            <span className="border border-gray-300 rounded-full px-2 text-xs text-cyan-400 py-0.5">
-              License number 
-              PA 118494  
-            </span>
-          </div>
         </div>
       </MotionDiv>
      

@@ -1,12 +1,19 @@
 import "../styles/globals.css";
 import { type ReactNode } from "react";
-import { Inter } from "next/font/google";
-import localFont from "next/font/local";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from '@vercel/analytics/react';
+import { Roboto } from 'next/font/google';
+import Footer from 'components/footer'
+
+const fontser = Roboto({
+  subsets: ["latin"],
+  weight: ['700','900'],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 export const metadata = {
   title: "T Savage LLC",
-  description: "Construction Management & Manpower",
+  description: "Count us In! Commercial & Residential Preplanning, Construction Management, Skilled Labor",
   icons: [{ url: "/favicon.ico" }],
   openGraph: {
     images: [{ url: "/og-image" }],
@@ -17,9 +24,11 @@ export const metadata = {
   },
 };
 
+
+
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={fontser.className}>
       <body style={{ 
           backgroundImage: `url(${'./images/assets/diamonds.png'})`,
           backgroundRepeat: 'repeat',
@@ -28,6 +37,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           {children}
         </main>
         <Analytics /> 
+        <Footer></Footer>
       </body>
     </html>
   );
